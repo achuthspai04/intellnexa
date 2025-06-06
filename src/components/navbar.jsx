@@ -20,7 +20,8 @@ function Navbar() {
         </div>
 
         <div className='logo-head'>
-            
+          <img className='img' src="./intellnexa.png" alt="Intellnexa Logo" />
+          <p>Intellnexa</p>    
         </div>
       </div>
     </>

@@ -1,4 +1,25 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.head .logo-head {
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head .logo-head img {
+  width: 40px;
+  height: 40px;
+}
+
 .head .Navbar {
+  order: 2;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -31,4 +52,13 @@
   border: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
+
+.head .logo-head p{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
