@@ -4,23 +4,30 @@
   align-items: center;
   padding: 1rem 2rem;
   width: 100%;
+  position: fixed; /* Keeps it at the top */
+  top: 0;
+  left: 0;
+  background: white; 
+  z-index: 1000;
+  box-sizing: border-box; 
+  border-bottom: 1px solid #ccc; 
 }
 
 .head .logo-head {
-  order: 1;
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: 2%;
 }
 
 .head .logo-head img {
-  width: 40px;
-  height: 40px;
+  width: 65px;
+  height: 65px;
 }
 
 .head .Navbar {
-  order: 2;
   font-family: 'Poppins', sans-serif;
+  flex-shrink: 0; /* Prevent navbar from shrinking */
 }
 
 .head .Navbar ul {
@@ -39,7 +46,42 @@
 .head .Navbar ul li a {
   color: black;
   text-decoration: none;
-  font-weight: 400; /* Match button font weight */
+  font-weight: 400;
+  position: relative;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.head .Navbar ul li a:hover {
+  color: #2D5D8B; /* Change color on hover */
+}
+
+.head .Navbar ul li a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -8px;
+  left: 0;
+  background-color: #FFA500; /* Orange underline like in your image */
+  transform: scaleX(1);
+}
+
+/* Underline animation */
+.head .Navbar ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -8px;
+  left: 0;
+  background-color: #FFA500;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.head .Navbar ul li a.active::after {
+  transform: scaleX(1);
 }
 
 .head .Navbar ul li button {
