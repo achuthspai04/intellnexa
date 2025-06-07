@@ -94,6 +94,18 @@
   border: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+
+.head .Navbar ul li button:hover {
+  background: #1e4060;
+  box-shadow: 0 2px 8px rgba(45, 93, 139, 0.15);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.head .Navbar ul li button:active {
+  background: #163049;
+  transform: scale(0.98);
 }
 
 .head .logo-head p{

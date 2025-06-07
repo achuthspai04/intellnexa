@@ -8,6 +8,10 @@ function Navbar() {
     setActiveLink(linkName);
   };
 
+  const handleConsultationClick = () => {
+    window.open("https://wa.me/917907451370?text=Hey, I wanted to join your course, can I get more details?", '_blank');
+  };
+
   return (
     <>
       <div className='head'>
@@ -23,7 +27,7 @@ function Navbar() {
               <li><a href="#" className={activeLink === 'About' ? 'active' : ''} onClick={() => handleLinkClick('About')}>About Us</a></li>
               <li><a href="#" className={activeLink === 'Services' ? 'active' : ''} onClick={() => handleLinkClick('Services')}>Services</a></li>
               <li>
-                <button type="button">Join Now</button>
+                <button type="button" onClick={handleConsultationClick}>Join Now</button>
               </li>
             </ul>
           </nav>
