@@ -3,6 +3,10 @@ import Navbar from './components/navbar'
 
 function App() {
 
+  const handleConsultationClick = () => {
+    window.open("https://wa.me/917907451370?text=Hey, I wanted to schedule a call to know more about your courses and services.", '_blank');
+  };
+
   return (
     <>
       <Navbar />
@@ -28,7 +32,7 @@ function App() {
             <span>Explore Programs</span>
             <img className='im1' src='/black.png' alt="Arrow Icon" />
           </button>
-          <button className="btn2">
+          <button className="btn2" onClick={handleConsultationClick}>
             <span>Book a Free Consultation</span>
             <img className='im2' src='/white.png' alt="Arrow Icon" />
           </button>

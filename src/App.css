@@ -14,9 +14,9 @@
   display: block;
 }
 
-.main-box .head1 {
+.main-box .head1{
   position: relative; 
-  top: 40px; /
+  top: 40px; 
   font-family: 'Poppins', sans-serif;
   font-size: 68px;
   font-weight: 600;
@@ -56,7 +56,7 @@
 .button-gang .btn1{
   background-color: #f3a423;
   color: black;
-  width: 270px;
+  width: 260px;
   height: 50px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -83,4 +83,19 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-gang .btn2:hover {
+  background-color: #f3a423;
+  color: #2D5D8B;
+  border: 3px solid #2D5D8B;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-gang .btn2:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
