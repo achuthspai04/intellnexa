@@ -38,6 +38,10 @@ function App() {
           </button>
         </div>
       </div>
+
+      <div className='core'>
+        <p className='core-head'>Our Core Services</p>
+      </div>
     </>
   )
 }
