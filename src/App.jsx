@@ -128,6 +128,31 @@ function App() {
 
       <div className='add-on'>
         <p className='add-on-head'>Add-on Courses</p>
+
+        <div className='add-services'>
+          <div className='add1'>
+            <div className='addcontent'>
+            <p className='add-header'>Add-on Certificate Courses</p>
+            <p className='add-text'>Skill-oriented short-term programs designed to complement academic learning.</p>
+            </div>
+          </div>
+
+          <div className='add2'>
+            <div className='addcontent'>
+            <p className='add-header'>Workshops and Seminars</p>
+            <p className='add-text'> Interactive sessions covering emerging trends and practical applications across various fields</p>
+            </div>
+          </div>
+
+          <div className='add3'>
+            <div className='addcontent'>
+            <p className='add-header'>Corporate Training Sessions</p>
+            <p className='add-text'>Customized programs to enhance employee productivity, communication, and team synergy</p>
+            </div>
+          </div>
+          
+        </div>
+        
       </div>
 
       <div className='why'>
