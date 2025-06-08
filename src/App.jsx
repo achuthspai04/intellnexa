@@ -153,7 +153,6 @@ function App() {
             <button className='view-more'>View More</button>
             </div>
           </div>
-
         </div>
         
       </div>
