@@ -132,25 +132,28 @@ function App() {
         <div className='add-services'>
           <div className='add1'>
             <div className='addcontent'>
-            <p className='add-header'>Add-on Certificate Courses</p>
-            <p className='add-text'>Skill-oriented short-term programs designed to complement academic learning.</p>
+            <p className='add-header'>Food Processing and Entrepreneurship Development  Programme </p>
+            <p className='add-text'>This comprehensive course in Food Processing and Entrepreneurship Development  Programme is designed to equip students with both theoretical knowledge and hands-on  experience across key areas of the food industry. It integrates core scientific principles with  modern innovations to prepare students for dynamic roles in food safety, quality control,  processing, and entrepreneurship.</p>
+            <button className='view-more'>View More</button>
             </div>
           </div>
 
           <div className='add2'>
             <div className='addcontent'>
-            <p className='add-header'>Workshops and Seminars</p>
-            <p className='add-text'> Interactive sessions covering emerging trends and practical applications across various fields</p>
+            <p className='add-header'>Nutrition and Dietetics Programme</p>
+            <p className='add-text'>The Nutrition and Dietetics Programme is a comprehensive academic and skill-based  course designed to equip students with essential theoretical knowledge and practical  competencies in human nutrition, therapeutic dietetics, food science, and public health. It  aims to prepare students for diverse careers in nutrition, community health, food service  management, and wellness entrepreneurship.</p>
+            <button className='view-more'>View More</button>
             </div>
           </div>
 
           <div className='add3'>
             <div className='addcontent'>
-            <p className='add-header'>Corporate Training Sessions</p>
-            <p className='add-text'>Customized programs to enhance employee productivity, communication, and team synergy</p>
+            <p className='add-header'>Psychosocial Support and Inclusive Counseling</p>
+            <p className='add-text'>Psychosocial Support and Inclusive Counseling is an add-on course designed to equip learners with skills to address emotional, social, and psychological well-being in diverse populations. It emphasizes inclusive practices that respect cultural, gender, and ability differences. The course prepares participants to provide empathetic, accessible, and context-sensitive counseling support.</p>
+            <button className='view-more'>View More</button>
             </div>
           </div>
-          
+
         </div>
         
       </div>
