@@ -196,6 +196,38 @@ function App() {
       <div className='testimonials'>
         <p className='testimonials-head'>Testimonials</p>
         <div className='test-box'>
+          <div className='test1'>
+              <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
+              <div className='test-deets'>
+                <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
+                <div className='test-deets'>
+                  <p className='test-name'>Meenakshi Sudarsanan</p>
+                  <p className='test-course'>Psychology Student</p>
+                </div>  
+              </div>   
+          </div>
+
+          <div className='test1'>
+              <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
+              <div className='test-deets'>
+                <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
+                <div className='test-deets'>
+                  <p className='test-name'>Meenakshi Sudarsanan</p>
+                  <p className='test-course'>Psychology Student</p>
+                </div>  
+              </div>   
+          </div>
+
+          <div className='test1'>
+              <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
+              <div className='test-deets'>
+                <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
+                <div className='test-deets'>
+                  <p className='test-name'>Meenakshi Sudarsanan</p>
+                  <p className='test-course'>Psychology Student</p>
+                </div>  
+              </div>   
+          </div>
           
         </div>
       </div>
