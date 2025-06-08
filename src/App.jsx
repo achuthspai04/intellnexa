@@ -159,10 +159,45 @@ function App() {
 
       <div className='why'>
         <p className='why-head'>Why Choose Intellnexa ?</p>
+        <div className='the-body'>
+          <div className='left'>
+
+            <div className='why1'>
+              <img className='tick' src='/tick.svg' alt="flexible online/offline modes" />
+              <p className='why1-text'>Flexible Online/Offline Modes</p>
+            </div>
+
+            <div className='why2'>
+              <img className='tick' src='/tick.svg' alt="Industry-Relevant Curriculum" />
+              <p className='why2-text'>Industry-Relevant Curriculum</p>
+            </div>
+
+            <div className='why3'>
+              <img className='tick' src='/tick.svg' alt="Expert Trainers and Mentors" />
+              <p className='why3-text'>Expert Trainers and Mentors</p>
+            </div>
+
+            <div className='why4'>
+              <img className='tick' src='/tick.svg' alt="Affordable and Accessible Programs" />
+              <p className='why4-text'>Affordable and Accessible Programs</p>
+            </div>
+
+            <div className='why5'>
+              <img className='tick' src='/tick.svg' alt=" Strong Network of Collaborators and Alumni" />
+              <p className='why5-text'> Strong Network of Collaborators and Alumni</p>
+            </div>
+          </div>
+          <div className='right'>
+            <img className='image-why' src='/student.svg' alt="best add-on courses in kerala"/>
+          </div>
+        </div>
       </div>
 
       <div className='testimonials'>
         <p className='testimonials-head'>Testimonials</p>
+        <div className='test-box'>
+          
+        </div>
       </div>
     </>
   )

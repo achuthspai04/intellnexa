@@ -380,3 +380,58 @@
   margin-left: auto;
   margin-right: 0;
 }
+
+
+
+.the-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1390px;
+  margin: 0 auto;
+  gap: 40px;
+  background-color: #F9F9F9;
+}
+
+.the-body .left {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.the-body .right {
+  flex: 0 0 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-why {
+  width: 100%;
+  max-width: 562px;
+  height: auto;
+  display: block;
+}
+
+.why1, .why2, .why3, .why4, .why5 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tick {
+  width: 32px;
+  height: 32px;
+}
+
+.why1-text, .why2-text, .why3-text, .why4-text, .why5-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 500;
+  margin: 0;
+}
