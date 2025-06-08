@@ -100,14 +100,20 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.core {
-  text-align: left; /* Override the center alignment */
-  max-width: 1390px; /* Match main-box width */
-  margin: 0 auto; /* Center the container */
-  padding: 0 2rem; /* Add some padding */
+.core,
+.add-on,
+.why,
+.testimonials {
+  text-align: left; 
+  max-width: 1390px; 
+  margin: 0 auto; 
+  padding: 0 2rem; 
 }
 
-.core .core-head {
+.core .core-head,
+.add-on .add-on-head,
+.why .why-head,
+.testimonials .testimonials-head {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -118,7 +124,10 @@
   display: inline-block;
 }
 
-.core .core-head::after {
+.core .core-head::after,
+.add-on .add-on-head::after,
+.why .why-head::after,
+.testimonials .testimonials-head::after {
   content: "";
   display: block;
   position: absolute;
@@ -129,3 +138,34 @@
   background: #F3A423;
   z-index: 0;
 }
+
+.additional{
+  text-align: left; 
+  max-width: 1390px; 
+  margin: 0 auto; 
+  padding: 0 2rem; 
+}
+
+.additional .additional-head {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 50px;
+  margin-left: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.additional .additional-head::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; 
+  background: #2D5D8B;
+  z-index: 0;
+}
+

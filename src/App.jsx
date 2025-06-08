@@ -42,6 +42,24 @@ function App() {
       <div className='core'>
         <p className='core-head'>Our Core Services</p>
       </div>
+
+
+
+      <div className='additional'>
+        <p className='additional-head'>Additional Offerings</p>
+      </div>
+
+      <div className='add-on'>
+        <p className='add-on-head'>Add-on Courses</p>
+      </div>
+
+      <div className='why'>
+        <p className='why-head'>Why Choose Intellnexa ?</p>
+      </div>
+
+      <div className='testimonials'>
+        <p className='testimonials-head'>Testimonials</p>
+      </div>
     </>
   )
 }
