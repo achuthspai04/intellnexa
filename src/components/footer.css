@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    max-width: 100%;
+    background-color: #2d5d8b;
+    padding-top: 20px;
+}
+
+.rights{
+    font-family: 'poppins', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 2px;
+}
+
+.quon{
+    font-family: 'poppins', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: aquamarine;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.intellnexa-button,
+.instagram{
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.footer-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: auto; /* Push other content to bottom */
+}

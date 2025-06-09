@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/navbar'
+import Footer from './components/footer';
 
 function App() {
 
@@ -243,6 +244,8 @@ function App() {
         <p className='foot-text3'>Connect with us and be a part of the Intellnexa experience – where intellect meets innovation</p>
         <img className='foot-image' src='/sample.svg' alt='best corporate training in kerala' />
       </div>
+
+      <Footer />
    </>
   )
 }
