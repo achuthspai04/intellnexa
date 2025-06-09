@@ -23,9 +23,9 @@ function Navbar() {
         <div className='Navbar'>
           <nav>
             <ul>
-              <li><a href="#" className={activeLink === 'Home' ? 'active' : ''} onClick={() => handleLinkClick('Home')}>Home</a></li>
-              <li><a href="#" className={activeLink === 'About' ? 'active' : ''} onClick={() => handleLinkClick('About')}>About Us</a></li>
-              <li><a href="#" className={activeLink === 'Services' ? 'active' : ''} onClick={() => handleLinkClick('Services')}>Services</a></li>
+              <li><a href="/" className={activeLink === 'Home' ? 'active' : ''} onClick={() => handleLinkClick('Home')}>Home</a></li>
+              <li><a href="/" className={activeLink === 'About' ? 'active' : ''} onClick={() => handleLinkClick('About')}>About Us</a></li>
+              <li><a href="/#core" className={activeLink === 'Services' ? 'active' : ''} onClick={() => handleLinkClick('Services')}>Services</a></li>
               <li>
                 <button type="button" onClick={handleConsultationClick}>Join Now</button>
               </li>
