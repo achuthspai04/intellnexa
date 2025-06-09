@@ -105,6 +105,10 @@ function FoodProcessing() {
                     </div>
                 </div>
             </div>
+
+            <div className='last'>
+                <p className='last-header'>Job Sectors & Job Rules</p>
+            </div>
             
        <Footer/> 
         </>
