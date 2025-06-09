@@ -82,11 +82,24 @@ function FoodProcessing() {
                         <p className='right-header'>Training & Certification Programs</p>
                          <div className='right-box'>
                             <div className='lb'>
-
+                                <p className='rhead'>Hands-on Training</p>
+                                <p className='rtext'>
+                                    <ul className='rlist'>
+                                        <li>Food Processing Techniques</li>
+                                        <li>Quality Control Procedures</li>
+                                        <li>Entrepreneurship Workshops</li>
+                                    </ul>
+                                </p>
                             </div>
 
                             <div className='rb'>
-                            
+                                <p className='rhead'>Certification Program</p>
+                                <p className='rtext'>
+                                    <ul className='rlist'>
+                                        <li>HACCP, GMP, GHP, Food Safety, and ISO 22000 Internal Audito</li>
+                                        <li>Industrial Visits to food reputed food industries</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
