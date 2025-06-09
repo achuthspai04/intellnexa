@@ -18,6 +18,53 @@ function FoodProcessing() {
                 </div>
             </div>
             
+
+            <div className='learning'>
+                <p className='food-title2'>Learning Outcomes</p>
+                <div className='learning-box'>
+                    <div className='left'>
+                    <div className='lt'>
+                        <img src='tick.svg' className='tick' alt='best food processing courses in kereala'/>
+                        <p className='lt-text'>Develop technical competencies in food processing and preservation. </p>
+                    </div>
+
+                    <div className='lt'>
+                        <img src='tick.svg' className='tick' alt='best bsc food processing in kochi'/>
+                        <p className='lt-text'>Understand and implement food safety, hygiene, and quality standards</p>
+                    </div> 
+
+                    <div className='lt'>
+                        <img src='tick.svg' className='tick' alt='diploma in food processing in kerala'/>
+                        <p className='lt-text'>Gain entrepreneurial and managerial skills to establish food startups.  </p>
+                    </div> 
+
+                    <div className='lt'>
+                        <img src='tick.svg' className='tick' alt='diploma in food processing'/>
+                        <p className='lt-text'>Apply practical knowledge in product development and business incubation. </p>
+                    </div> 
+
+                    <div className='lt'>
+                        <img src='tick.svg' className='tick' alt='entrepreneurship courses in food technology kerala'/>
+                        <p className='lt-text'> Be prepared for employment or self-employment in the food sector.</p>
+                    </div> 
+                    </div>
+
+                    <div className='right'>
+                        <img src='food.svg' alt='food processing technology courses'/>                   
+                    </div>
+                </div>
+
+                <div className='giant'>
+                    <div className='giant-left'>
+                        <p className='left-header'>Core Learning Areas</p>
+                    </div>
+
+                    <div className='giant-right'>
+                        <p className='right-header'>Training & Certification Programs</p>
+                    </div>
+                </div>
+            </div>
+            
        <Footer/> 
         </>
     );
