@@ -1,11 +1,23 @@
 import './App.css'
 import Navbar from './components/navbar'
 import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 
 function App() {
 
   const handleConsultationClick = () => {
     window.open("https://wa.me/917907451370?text=Hey, I wanted to schedule a call to know more about your courses and services.", '_blank');
+  };
+
+  const navigate = useNavigate();
+
+  const handleServicesClick = () => {
+    navigate('/services');
+    // Scroll to core services section
+    const coreElement = document.querySelector('.core');
+    if (coreElement) {
+      coreElement.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
