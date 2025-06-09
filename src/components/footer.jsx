@@ -19,6 +19,14 @@ function Footer() {
                         <img src="./f3.svg" alt="best courses for food technology in kerala"/>
                     </button>
                 </div>
+
+                <div className="links">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Add-on Courses</a>
+                    <a href="https://wa.me/917907451370?text=Hey, I wanted to schedule a call to know more about Intellnexa's courses and services." target="_blank" rel="noopener noreferrer">Join Now</a>
+                </div>
             </div>
             <p className="rights">© 2025 Intellnexa</p>
             <a href="https://api.whatsapp.com/send?phone=918921307519&text=Hi, I want to know if you could build a website/software for me" className="quon">Crafted @ QUON</a>
