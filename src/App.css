@@ -438,22 +438,8 @@
 
 .test-box{
   max-width: 1390px;
-  width: 100%;
-  height: 420px;
+  height: 440px;
   background-color: #F9F9F9 ;
-}
-
-.test1, .test2, .test3 {
-  height: 410px;
-  width: 400px;
-  background-color: #FFFFFF;
-  flex: 1;
-  margin: 0 10px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.test-box {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -461,11 +447,20 @@
   padding: 20px;
 }
 
+.test1, .test2, .test3 {
+  height: 400px;
+  background-color: #FFFFFF;
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;;
+  border: #f4eeee 2px solid;
+}
+
 .test-text{
   font-family: 'poppins', sans-serif;
   font-size: 14.5px;
   color: #333333;
-  height: 265px;
+  height: 295px;
   margin-left: 10px;
   margin-right: 10px;
 }
