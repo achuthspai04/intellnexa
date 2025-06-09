@@ -200,35 +200,35 @@ function App() {
               <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
               <div className='test-deets'>
                 <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
-                <div className='test-deets'>
+                <div className='test-deetail'>
                   <p className='test-name'>Meenakshi Sudarsanan</p>
                   <p className='test-course'>Psychology Student</p>
                 </div>  
               </div>   
           </div>
 
-          <div className='test1'>
-              <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
+          <div className='test2'>
+              <p className='test-text'>“The Add-on Course on Food Processing and Entrepreneurship Development Program provided me with practical knowledge and real-life applications that helped me understand the industry better. The field visits and industrial visits were incredibly beneficial, giving me insights into food companies' operations. The course content was relevant and up-to-date, and the faculty was friendly and supportive. This course has been a valuable stepping stone in my journey, and I'm grateful for the experience.”</p>
               <div className='test-deets'>
-                <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
-                <div className='test-deets'>
-                  <p className='test-name'>Meenakshi Sudarsanan</p>
-                  <p className='test-course'>Psychology Student</p>
+                <img className='test-image' src='/st2.svg' alt='best psychology courses in kochi' />
+                <div className='test-deetail'>
+                  <p className='test-name'>Aparna</p>
+                  <p className='test-course'>Food Technology student</p>
                 </div>  
               </div>   
           </div>
 
-          <div className='test1'>
-              <p className='test-text'>“The Behavioural Therapy and Counseling add-on course was a game-changer for me. It not only deepened my understanding of human behavior but also gave me practical tools to handle real-life situations with empathy and confidence. The sessions were engaging, and the support from the mentors was incredible. I feel more prepared and inspired to pursue a career in mental health.”</p>
+          <div className='test2'>
+              <p className='test-text'>" I'm Nivedita, and food processing add on course provided me with comprehensive knowledge of the food industry, exploring various career opportunities and roles for qualified professionals in food science and technology. I gained in-depth understanding of food processing techniques, industry practices, and food safety management systems. The course also equipped me with relevant certificates, enhancing my credentials. Overall, this course was a valuable experience that opened doors to new possibilities in the food industry. I'm grateful for it."</p>
               <div className='test-deets'>
-                <img className='test-image' src='/st1.svg' alt='food tech diploma courses in kochi' />
-                <div className='test-deets'>
-                  <p className='test-name'>Meenakshi Sudarsanan</p>
-                  <p className='test-course'>Psychology Student</p>
+                <img className='test-image' src='/st3.svg' alt='best psychology session in kerala' />
+                <div className='test-deetail'>
+                  <p className='test-name'>Nivedita</p>
+                  <p className='test-course'>Food Technology student</p>
                 </div>  
               </div>   
           </div>
-          
+
         </div>
       </div>
     </>
