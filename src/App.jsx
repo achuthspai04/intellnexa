@@ -231,7 +231,19 @@ function App() {
 
         </div>
       </div>
-    </>
+
+      <div className='foot1'>
+        <p className='foot-text1'>Whether you're an individual looking to upskill, a student seeking practical exposure, or an institution</p>
+        <p className='foot-text2'>
+          aiming to enrich your academic ecosystem, <span className="highlight">Intellnexa</span> is your trusted partner in growth.
+        </p>
+      </div>
+
+      <div className='foot2'>
+        <p className='foot-text3'>Connect with us and be a part of the Intellnexa experience – where intellect meets innovation</p>
+        <img className='foot-image' src='/sample.svg' alt='best corporate training in kerala' />
+      </div>
+   </>
   )
 }
 
