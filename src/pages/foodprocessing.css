@@ -27,7 +27,7 @@
 
 .food-title1::after,
 .left-header::after,
-.right-header::after{
+.right-header::after {
   content: "";
   display: block;
   position: absolute;
@@ -139,9 +139,8 @@
     align-items: flex-start;
     width: 100%;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 40px;
-    gap: 50px;
 }
 
 .giant-left, .giant-right{
@@ -151,8 +150,27 @@
 
 .left-box,
 .right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 380px;
     width: 100%;
     background-color: #F9F9F9;
+    margin-top: -10px;
+    display: flex;
+    align-items: flex-start;
+}
+.giant {
+    gap: 50px;
+}
+
+.core-areas-list {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    padding: 30px;
+    list-style-type: disc;
 }
 
