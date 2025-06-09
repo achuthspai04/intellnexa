@@ -12,7 +12,9 @@
 }
 
 
-.food-title1 {
+.food-title1,
+.left-header,
+.right-header {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -23,7 +25,9 @@
   display: inline-block;
 }
 
-.food-title1::after{
+.food-title1::after,
+.left-header::after,
+.right-header::after{
   content: "";
   display: block;
   position: absolute;
@@ -59,8 +63,6 @@
   text-align: left; 
   max-width: 1390px; 
   margin: 0 auto; 
-  padding: 0 2rem;
-  margin-bottom: 40px; 
 }
 
 .food-title2{
@@ -82,7 +84,7 @@
   bottom: 0;
   width: 100%;
   height: 3px; 
-  background: #F3A423;
+  background: #2d5d8b;
   z-index: 0;
 }
 
@@ -127,5 +129,30 @@
   align-items: flex-start;
   gap: 7px;
   height: 100%;
-    width: 100%;
+  width: 100%;
 }
+
+.giant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.giant-left, .giant-right{
+    flex: 1;
+    height: 100%;
+}
+
+.left-box,
+.right-box {
+    height: 380px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+

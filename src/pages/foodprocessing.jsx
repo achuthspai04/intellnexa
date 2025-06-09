@@ -57,10 +57,31 @@ function FoodProcessing() {
                 <div className='giant'>
                     <div className='giant-left'>
                         <p className='left-header'>Core Learning Areas</p>
+                        <div className='left-box'>
+                            <ul className='core-areas-list'>
+                                <li>Fundamentals of Food Science and Nutrition</li>
+                                <li>Food Preservation & Processing Techniques
+                                    <ul>
+                                        <li>Fruits and Vegetables</li>
+                                        <li>Cereals</li>
+                                        <li>Milk and Meat</li>
+                                    </ul>
+                                </li>
+                                <li>Bakery & Confectionery Technology</li>
+                                <li>Food Microbiology and Chemistry</li>
+                                <li>Food Safety Standards</li>
+                                <li>Food Quality Control & Waste Management</li>
+                                <li>Innovative Techniques in Food Technology</li>
+                                <li>Food Supply Chain and Logistics</li>
+                                <li>Entrepreneurship Development & Value Addition</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className='giant-right'>
                         <p className='right-header'>Training & Certification Programs</p>
+                         <div className='right-box'>
+                        </div>
                     </div>
                 </div>
             </div>
