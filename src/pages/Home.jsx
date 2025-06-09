@@ -4,25 +4,41 @@ import Footer from '../components/footer';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 
 function Home() {
-
   const handleConsultationClick = () => {
     window.open("https://wa.me/917907451370?text=Hey, I wanted to schedule a call to know more about your courses and services.", '_blank');
   };
 
   const navigate = useNavigate();
 
-  const handleServicesClick = () => {
-    navigate('/services');
-    // Scroll to core services section
-    const coreElement = document.querySelector('.core');
-    if (coreElement) {
-      coreElement.scrollIntoView({ behavior: 'smooth' });
+  const handleLinkClick = (linkName) => {
+    if (linkName === 'Services') {
+      // Navigate to home first
+      navigate('/');
+      // Wait a bit for navigation to complete, then scroll to core section
+      setTimeout(() => {
+        const coreElement = document.querySelector('.core');
+        if (coreElement) {
+          coreElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else if (linkName === 'Add-on Courses') {
+      // Navigate to home first
+      navigate('/');
+      // Wait a bit for navigation to complete, then scroll to add-on section
+      setTimeout(() => {
+        const addOnElement = document.querySelector('.add-on');
+        if (addOnElement) {
+          addOnElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else if (linkName === 'Home' || linkName === 'About Us') {
+      navigate('/');
     }
   };
 
   return (
     <>
-      <Navbar />
+      <Navbar onLinkClick={handleLinkClick} />
 
       <div className="main-box">
         <p className="head1">Welcome to Intellnexa !</p>
@@ -257,7 +273,7 @@ function Home() {
         <img className='foot-image' src='/sample.svg' alt='best corporate training in kerala' />
       </div>
 
-      <Footer />
+      <Footer onLinkClick={handleLinkClick} />
    </>
   )
 }
