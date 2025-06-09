@@ -11,7 +11,7 @@ function FoodProcessing() {
             <div className='food1'>
                 <p className='food-title1'>Food Processing and Entrepreneurship Development  Programme </p>
             </div>
-
+            
        <Footer/> 
         </>
     );
