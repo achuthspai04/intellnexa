@@ -174,3 +174,18 @@
     list-style-type: disc;
 }
 
+.right-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.lb,
+.rb{
+    height: 300px;
+    width: 230px;
+    background-color: #ffffffff;
+    border: #f4eeee 2px solid;
+}
+

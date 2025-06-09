@@ -81,6 +81,13 @@ function FoodProcessing() {
                     <div className='giant-right'>
                         <p className='right-header'>Training & Certification Programs</p>
                          <div className='right-box'>
+                            <div className='lb'>
+
+                            </div>
+
+                            <div className='rb'>
+                            
+                            </div>
                         </div>
                     </div>
                 </div>
