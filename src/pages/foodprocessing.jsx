@@ -106,8 +106,65 @@ function FoodProcessing() {
                 </div>
             </div>
 
-            <div className='last'>
+            <div className='lastt'>
                 <p className='last-header'>Job Sectors & Job Rules</p>
+                <div className='final-boxx1'>      
+                    <div className='top'>
+                        <p className='end-text'>This program provides students with comprehensive knowledge and hands-on expertise in food  processing, entrepreneurship, and product innovation, preparing them for careers in the food  industry or to launch their own ventures, backed by nationally and internationally recognized  certifications.</p>
+                    </div> 
+
+                    <div className='bottom'>
+                        <div className='boxx1'>
+                            <p className='h'>Food Processing Units</p>
+                            <p className='t'>
+                                <ul className='end-l'>
+                                    <li>Machine Operator</li>
+                                    <li>Production Supervisor</li>
+                                    <li>QA Assistant</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div className='boxx1'>
+                            <p className='h'>Agro & MSME Sector</p>
+                            <p className='t'>
+                                <ul className='end-l'>
+                                    <li>Food Entrepreneur</li>
+                                    <li> Small Business Owner</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className='boxx1'>
+                            <p className='h'>Government & Public Sector</p>
+                            <p className='t'>
+                                <ul className='end-l'>
+                                    <li>Food Inspector</li>
+                                    <li>Extension Officer</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className='boxx1'>
+                            <p className='h'>Export & Packaging Industry</p>
+                            <p className='t'>
+                                <ul className='end-l'>
+                                    <li>Packaging Assistant</li>
+                                    <li>Logistics Support</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className='boxx1'>
+                            <p className='h'>Retail & Marketing</p>
+                            <p className='t'>
+                                <ul className='end-l'>
+                                    <li>Product Promoter & Sales</li>
+                                    <li>Distribution Executive</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>   
+                </div>
             </div>
             
        <Footer/> 
