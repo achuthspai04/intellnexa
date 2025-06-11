@@ -107,7 +107,7 @@ function FoodProcessing() {
             </div>
 
             <div className='lastt'>
-                <p className='last-header'>Job Sectors & Job Rules</p>
+                <p className='last-header'>Job Sectors & Job Roles</p>
                 <div className='final-boxx1'>      
                     <div className='top'>
                         <p className='end-text'>This program provides students with comprehensive knowledge and hands-on expertise in food  processing, entrepreneurship, and product innovation, preparing them for careers in the food  industry or to launch their own ventures, backed by nationally and internationally recognized  certifications.</p>
