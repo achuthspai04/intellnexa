@@ -1,17 +1,19 @@
 import React from "react";
-import './nutrition.css';
+import './psycho.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer.jsx';
 
-function NutritionAndDietetics() {
+function Psycho() {
     return (
         <>
             <Navbar />
             <div className='food1'>
-                <p className='food-title1'>Nutrition and Dietetics Programme</p>
+                <p className='food-title1'>Psychosocial support and Inclusive Counseling </p>
                 <div className='box1'>
-                    <p className='food-text1'>The Nutrition and Dietetics Programme is a comprehensive academic and skill-based  course designed to equip students with essential theoretical knowledge and practical  competencies in human nutrition, therapeutic dietetics, food science, and public health. It  aims to prepare students for diverse careers in nutrition, community health, food service  management, and wellness entrepreneurship.</p>
-                    <p className='food-text2'>The <strong>diploma program</strong> offers in-depth training in nutrition assessment, diet planning,  therapeutic nutrition and public health interventions. It is ideal for individuals seeking a  career in clinical or community nutrition, food service management, wellness coaching or  nutraceutical companies. </p>
+                    <p className='food-text1'>Psychosocial Support and Inclusive Counseling is an add-on course designed to equip learners with skills to address emotional, social, and psychological well-being in diverse populations. It emphasizes inclusive practices that respect cultural, gender, and ability differences. The course prepares participants to provide empathetic, accessible, and context-sensitive counseling support.</p>
+                    <p className='food-text2'>The program is available in two formats: an add-on course and a diploma program.</p>
+                    <p className='food-text2'>The <strong>add-on course</strong> in Psychosocial Support and Inclusive Counseling is designed as a supplementary program for students currently pursuing other academic degrees. It offers foundational knowledge and basic practical skills in counseling, enabling learners to integrate psychosocial awareness into their primary field of study. The course is ideal for those seeking an introduction to inclusive counseling without the commitment of a full-time program.</p>
+                    <p className='food-text2'>The <strong>certificate course or diploma version</strong> is a more intensive, standalone program aimed at graduates, professionals, or individuals seeking specialized training in the field. It provides deeper theoretical understanding, hands-on practice, and professional competency in psychosocial support and inclusive counseling. This format is suited for those looking to enhance their qualifications or pursue a career in mental health and counseling services.</p>
                 </div>
             </div>
             
@@ -21,38 +23,33 @@ function NutritionAndDietetics() {
                 <div className='learning-box'>
                     <div className='left'>
                     <div className='lt'>
-                        <img src='tick.svg' className='tick' alt='best food processing courses in kereala'/>
-                        <p className='lt-text'>Develop a strong foundation in human nutrition, physiology, and biochemistry.</p>
-                    </div>
-
-                    <div className='lt'>
                         <img src='tick.svg' className='tick' alt='best bsc food processing in kochi'/>
-                        <p className='lt-text'>Gain expertise in diet planning for health promotion and disease management.</p>
+                        <p className='lt-text'>Differentiate between counseling, guidance, and psychotherapy.</p>
                     </div> 
 
                     <div className='lt'>
                         <img src='tick.svg' className='tick' alt='diploma in food processing in kerala'/>
-                        <p className='lt-text'>Understand food science principles and the role of functional foods.</p>
+                        <p className='lt-text'>Identify the main goals and broad applications of counseling.</p>
                     </div> 
 
                     <div className='lt'>
                         <img src='tick.svg' className='tick' alt='diploma in food processing'/>
-                        <p className='lt-text'>Build communication and counseling skills for client-centered nutrition care.</p>
+                        <p className='lt-text'>Understand the ethical principles that guide counseling practice.</p>
                     </div> 
 
                     <div className='lt'>
                         <img src='tick.svg' className='tick' alt='entrepreneurship courses in food technology kerala'/>
-                        <p className='lt-text'>Be equipped for careers in healthcare, wellness, and food service sectors.</p>
+                        <p className='lt-text'>Recognize the essential qualities of effective counselors and barriers to communication.</p>
                     </div>
 
                     <div className='lt'>
                         <img src='tick.svg' className='tick' alt='entrepreneurship courses in food technology kerala'/>
-                        <p className='lt-text'> Be prepared for employment or self-employment in the food sector.</p>
+                        <p className='lt-text'>Describe the stages, techniques, and adaptations used in counseling for special populations.</p>
                     </div>  
                     </div>
 
                     <div className='right'>
-                        <img src='nutrition.svg' alt='food processing technology courses'/>                   
+                        <img src='psychology.svg' alt='coursees for psychology students in kerala'/>                   
                     </div>
                 </div>
 
@@ -61,41 +58,42 @@ function NutritionAndDietetics() {
                         <p className='left-header'>Core Learning Areas</p>
                         <div className='left-box'>
                             <ul className='core-areas-list'>
-                                <li>Fundamentals of Human Physiology and Nutritional Biochemistry</li>
-                                <li>Essentials of Human Health and Nutrition</li>
-                                <li>Nutrition Through the Life Cycle (Pregnancy, Infants, Elderly, etc.)</li>
-                                <li>Diet Therapy and Medical Nutrition Management</li>
-                                <li>Food Science and Meal Planning</li>
-                                <li>Public Health Nutrition and Community Nutrition</li>
-                                <li>Nutrition Assessment Techniques and Tools</li>
-                                <li>Food Service Management and Institutional Catering</li>
-                                <li>Nutrition Counseling and Communication Skills</li>
-                                <li>Functional Foods, Nutraceuticals, and Recent Trends</li>
+                                <li>Foundations of Counseling – Understanding definitions, ethics, stages, and communication in counseling.</li>
+                                <li>Counseling Techniques and Approaches – Learning key methods like person-centered, CBT, behavioral, feminist, and postmodern approaches.</li>
+                                <li>Applied Counseling Practice – Engaging in role plays, clinical visits, live sessions, and therapy workshops.</li>
+                                <li>Specialized Counseling Areas – Addressing counseling needs of special populations, families, and groups.</li>
+                                <li>Assessment and Professional Scope – Exploring testing, diagnosis, and diverse settings where counseling is applied.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div className='giant-right'>
-                        <p className='right-header'>Practicals & Internship</p>
+                        <p className='right-header'>Training & Certification Programs</p>
                          <div className='right-box'>
                             <div className='lb'>
-                                <p className='rhead'>Practicals</p>
+                                <div className='edath'>
                                 <p className='rtext'>
                                     <ul className='rlist'>
-                                        <li>Anthropometric and dietary assessment techniques</li>
-                                        <li>Therapeutic meal preparation and menu planning</li>
-                                        <li>Institutional food service operations</li>
+                                        <li>Foundational Psychological Theories</li>
+                                        <li>Core Counseling Skills Development</li>
+                                        <li>Cognitive Behavioral Therapy (CBT) Workshops</li>
+                                        <li>Transactional Analysis Workshops</li>
+                                        <li>Hands-on Training in Therapeutic Methods</li>
                                     </ul>
                                 </p>
-                            </div>
+                                </div>
 
-                            <div className='rb'>
-                                <p className='rhead'>Internship</p>
-                                <p className='rtext'>
+                                <div className='valath'>
+                                    <p className='rtext'>
                                     <ul className='rlist'>
-                                        <li>One month training in hospital</li>
+                                        <li>Live Counselling Sessions</li>
+                                        <li>Role-Play Sessions</li>
+                                        <li>Clinical Visits</li>
+                                        <li>Industry Visits</li>
+                                        <li>Ethical and Professional Development</li>
                                     </ul>
-                                </p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,4 +167,4 @@ function NutritionAndDietetics() {
     );
 }
 
-export default NutritionAndDietetics;
+export default Psycho;
