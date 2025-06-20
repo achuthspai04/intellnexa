@@ -809,8 +809,8 @@
   .additional-services .additional3,
   .additional-services .additional4,
   .additional-services .additional5 {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 260px;
   }
   
   .add-services {
@@ -934,8 +934,8 @@
   .additional-services .additional3,
   .additional-services .additional4,
   .additional-services .additional5 {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 260px;
   }
   
   .add-services {
@@ -1083,101 +1083,185 @@
     flex-direction: column;
     height: auto;
     align-items: center;
-    gap: 15px;
   }
   
   .add-services .add1,
   .add-services .add2,
   .add-services .add3 {
-    width: 300px;
-    height: 360px;
-  }
-  
-  .add-header {
-    font-size: 18px;
-    height: 50px;
-  }
-  
-  .add-text {
-    font-size: 14px;
-    height: 220px;
-  }
-  
-  .view-more {
-    width: 120px;
-    height: 35px;
-    font-size: 14px;
+    width: 500px;
+    height: 400px;
   }
   
   .the-body {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
   
   .the-body .left {
-    padding-left: 15px;
-    padding-top: 15px;
-    gap: 16px;
+    padding-left: 30px;
+    padding-top: 30px;
   }
   
   .the-body .right {
-    padding: 10px;
+    flex: none;
+    padding: 20px;
   }
   
   .image-why {
-    max-width: 280px;
-  }
-  
-  .tick {
-    width: 28px;
-    height: 28px;
-  }
-  
-  .why1-text, .why2-text, .why3-text, .why4-text, .why5-text {
-    font-size: 14px;
+    max-width: 400px;
   }
   
   .test-box {
     flex-direction: column;
     height: auto;
-    padding: 10px;
-  }
-  
-  .test1, .test2, .test3 {
-    margin: 0 0 15px 0;
-    height: auto;
-    min-height: 300px;
     padding: 15px;
   }
   
-  .test-text {
-    font-size: 13px;
-    height: 250px;
-    margin-left: 5px;
-    margin-right: 5px;
+  .test1, .test2, .test3 {
+    margin: 0;
+    height: auto;
+    min-height: 350px;
+  }
+}
+
+/* Mobile - Small (320px - 480px) */
+@media (max-width: 480px) {
+  .main-box {
+    max-width: 320px;
+    height: 400px;
+    margin-top: 40px;
   }
   
-  .test-name {
-    font-size: 16px;
+  .main-box .head1 {
+    font-size: 32px;
+    top: 20px;
   }
   
-  .test-course {
+  .main-box .head2 {
+    font-size: 20px;
+  }
+  
+  .main-box .p1,
+  .main-box .p2,
+  .main-box .p3,
+  .main-box .p4 {
     font-size: 14px;
-  }
-  
-  .foot1 {
-    height: 130px;
-  }
-  
-  .foot-text1,
-  .foot-text2 {
-    font-size: 16px;
-    text-align: center;
     padding: 0 15px;
   }
   
-  .foot-text3 {
+  .button-gang {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  
+  .button-gang .btn1,
+  .button-gang .btn2 {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .core .core-head,
+  .add-on .add-on-head,
+  .why .why-head,
+  .testimonials .testimonials-head,
+  .additional .additional-head {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .core-services {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 10px;
+  }
+  
+  .core-services .core1,
+  .core-services .core2,
+  .core-services .core3,
+  .core-services .core4 {
+    width: 250px;
+    height: 240px;
+  }
+  
+  .core-header {
     font-size: 18px;
+  }
+  
+  .core-text {
+    font-size: 14px;
+  }
+  
+  .additional-services {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 10px;
+  }
+  
+  .additional-services .additional1,
+  .additional-services .additional2,
+  .additional-services .additional3,
+  .additional-services .additional4,
+  .additional-services .additional5 {
+    width: 250px;
+    height: 260px;
+  }
+  
+  .addl-header {
+    font-size: 18px;
+  }
+  
+  .addl-text {
+    font-size: 14px;
+  }
+  
+  .add-services {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  
+  .add-services .add1,
+  .add-services .add2,
+  .add-services .add3 {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .the-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .the-body .left {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .the-body .right {
+    flex: none;
+    padding: 20px;
+  }
+  
+  .image-why {
+    max-width: 400px;
+  }
+  
+  .test-box {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+  
+  .test1, .test2, .test3 {
+    margin: 0;
+    height: auto;
+    min-height: 350px;
   }
 }
 
@@ -1194,6 +1278,14 @@
   
   .main-box .head2 {
     font-size: 18px;
+  }
+  
+  .main-box .p1,
+  .main-box .p2,
+  .main-box .p3,
+  .main-box .p4 {
+    font-size: 13px;
+    padding: 0 5px;
   }
   
   .button-gang .btn1,
@@ -1641,5 +1733,397 @@
   .test-deetails {
     font-family: 'Poppins', sans-serif;
     color: #333333;
+  }
+}
+
+/* Mobile-only fixes for main-box container and buttons */
+
+/* Fix main-box container for mobile views */
+@media (max-width: 767px) {
+  .main-box {
+    width: calc(100vw - 30px);
+    max-width: calc(100vw - 30px);
+    height: auto;
+    min-height: 500px;
+    margin: 60px 15px 0px 15px;
+    padding: 20px 15px 40px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .main-box .head1 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .main-box .head2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .main-box .p1,
+  .main-box .p2,
+  .main-box .p3,
+  .main-box .p4 {
+    font-size: 14px;
+    margin: 2px 0;
+    padding: 0 5px;
+    line-height: 1.4;
+  }
+  
+  .button-gang {
+    margin-top: 20px;
+    margin-bottom: 0;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .button-gang .btn1,
+  .button-gang .btn2 {
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .right{
+    width:100%;
+  }
+
+  .ppp{
+    p {
+      margin-bottom: 5px; /* Adjust the value to reduce the gap */
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .main-box {
+    width: calc(100vw - 20px);
+    max-width: calc(100vw - 20px);
+    margin: 50px 10px 0px 10px;
+    padding: 40px 10px 30px 10px;
+    min-height: 450px;
+  }
+  
+  .main-box .head1 {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  
+  .main-box .head2 {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .main-box .p1,
+  .main-box .p2,
+  .main-box .p3,
+  .main-box .p4 {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+  }
+  
+  .button-gang {
+    margin-top: 15px;
+    gap: 10px;
+  }
+  
+  .button-gang .btn1,
+  .button-gang .btn2 {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-box {
+    width: calc(100vw - 10px);
+    max-width: calc(100vw - 10px);
+    margin: 30px 5px 0px 5px;
+    padding: 10px 8px 25px 8px;
+    min-height: 400px;
+  }
+  
+  .main-box .head1 {
+    font-size: 20px;
+  }
+  
+  .main-box .head2 {
+    font-size: 14px;
+  }
+  
+  .main-box .p1,
+  .main-box .p2,
+  .main-box .p3,
+  .main-box .p4 {
+    font-size: 12px;
+    padding: 0 2px;
+  }
+  
+  .button-gang .btn1,
+  .button-gang .btn2 {
+    width: 160px;
+    height: 38px;
+    font-size: 12px;
+  }
+}
+
+/* Ensure main-box positioning */
+@media (max-width: 767px) {
+  .main-box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2D5D8B;
+    z-index: -1;
+  }
+  
+  .main-box > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* Fix button positioning within main-box */
+@media (max-width: 767px) {
+  .button-gang {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-gang .btn1,
+  .button-gang .btn2 {
+    flex-shrink: 0;
+  }
+}
+
+/* Mobile-only fixes for Footer sections */
+
+/* Footer 1 (foot1) mobile fixes */
+@media (max-width: 767px) {
+  .foot1 {
+    height: auto;
+    min-height: 120px;
+    width: calc(100vw - 30px);
+    max-width: calc(100vw - 30px);
+    margin: 0 auto 30px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2D5D8B;
+  }
+  
+  .foot-text1,
+  .foot-text2 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 5px 0;
+    padding: 0 10px;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .foot1 {
+    width: calc(100vw - 20px);
+    max-width: calc(100vw - 20px);
+    padding: 15px 10px;
+    min-height: 100px;
+  }
+  
+  .foot-text1,
+  .foot-text2 {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .foot1 {
+    width: calc(100vw - 10px);
+    max-width: calc(100vw - 10px);
+    padding: 12px 8px;
+    min-height: 90px;
+  }
+  
+  .foot-text1,
+  .foot-text2 {
+    font-size: 13px;
+    padding: 0 3px;
+  }
+}
+
+/* Footer 2 (foot2) mobile fixes */
+@media (max-width: 767px) {
+  .foot2 {
+    margin-bottom: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .foot-text3 {
+    font-size: 16px;
+    color: #000;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+  
+  .foot2 .foot-image {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .foot2 {
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+  
+  .foot-text3 {
+    font-size: 14px;
+    padding: 0 5px;
+    margin-bottom: 15px;
+  }
+  
+  .foot2 .foot-image {
+    max-width: 90%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .foot2 {
+    padding: 0 5px;
+    margin-bottom: 25px;
+  }
+  
+  .foot-text3 {
+    font-size: 13px;
+    padding: 0 3px;
+    margin-bottom: 12px;
+  }
+  
+  .foot2 .foot-image {
+    max-width: 85%;
+  }
+  
+}
+
+/* Ensure proper text wrapping and spacing */
+@media (max-width: 767px) {
+  .foot-text1,
+  .foot-text2,
+  .foot-text3 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+/* Container width fixes for mobile */
+@media (max-width: 767px) {
+  .foot1,
+  .foot2 {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Make foot1 paragraphs appear as one in mobile */
+@media (max-width: 767px) {
+  .foot-text1 {
+    margin-bottom: 0;
+    display: inline;
+  }
+  
+  .foot-text2 {
+    margin-top: 0;
+    display: inline;
+  }
+  
+  .foot-text1::after {
+    content: " ";
+  }
+}
+
+/* Alternative approach - if you want them in a single container */
+@media (max-width: 767px) {
+  .foot1 {
+    /* existing styles... */
+  }
+  
+  .foot-text1,
+  .foot-text2 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0 10px;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: center;
+    width: 100%;
+    display: inline;
+  }
+  
+  .foot-text1 + .foot-text2::before {
+    content: " ";
+  }
+}
+
+@media (max-width: 480px) {
+  .foot-text1,
+  .foot-text2 {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .foot-text1,
+  .foot-text2 {
+    font-size: 13px;
+    padding: 0 3px;
   }
 }

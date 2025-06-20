@@ -43,6 +43,7 @@ function Home() {
       <div className="main-box">
         <p className="head1">Welcome to Intellnexa !</p>
         <p className="head2">Imparting Futuristic Solutions</p>
+        <div className="ppp">
         <p className="p1">
           At Intellnexa, we are committed to delivering high-quality educational and developmental
         </p>
@@ -55,6 +56,7 @@ function Home() {
         <p className="p4">
           training needs of today’s dynamic world.
         </p>
+        </div>
 
         <div className='button-gang'>
           <button className="btn1">
@@ -262,10 +264,12 @@ function Home() {
       </div>
 
       <div className='foot1'>
+        <div className='pp'>
         <p className='foot-text1'>Whether you're an individual looking to upskill, a student seeking practical exposure, or an institution</p>
         <p className='foot-text2'>
           aiming to enrich your academic ecosystem, <span className="highlight">Intellnexa</span> is your trusted partner in growth.
         </p>
+        </div>
       </div>
 
       <div className='foot2'>
