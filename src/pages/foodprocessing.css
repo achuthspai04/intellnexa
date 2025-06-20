@@ -12,7 +12,16 @@
 }
 
 
-.food-title1,
+.food-title1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+  display: inline-block;
+}
 .left-header,
 .right-header {
   font-family: 'Poppins', sans-serif;
@@ -124,6 +133,13 @@
     margin: 0;
 }
 
+.learning-box .fig {
+  height: 230px; 
+  margin: 0;
+  width: auto; 
+  object-fit: cover;
+}
+
 .left{
     display: flex;
   flex-direction: column;
@@ -194,6 +210,8 @@
     background-color: #ffffffff;
     border: #f4eeee 2px solid;
 }
+
+
 
 .rhead{
     margin-top: 50px;
@@ -281,6 +299,687 @@
     font-size: 16px;
     color: #333333;
     text-align: left;
+}
+
+/* Mobile Responsive CSS for Food Processing Page */
+
+/* Tablet Large (1024px - 1199px) */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .food1, .learning, .lastt {
+    max-width: 900px;
+    padding: 0 20px;
+  }
+  
+  .food-title1 {
+    font-size: 28px;
+  }
+  
+  .left-header, .right-header, .food-title2, .last-header {
+    font-size: 22px;
+  }
+  
+  .box1 {
+    height: 400px;
+    gap: 30px;
+  }
+  
+  .giant {
+    gap: 30px;
+  }
+  
+  .left-box, .right-box {
+    height: 350px;
+  }
+}
+
+/* Tablet Medium (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .food1, .learning, .lastt {
+    max-width: 700px;
+    padding: 0 20px;
+    margin-top: 80px;
+  }
+  
+  .food-title1 {
+    font-size: 26px;
+  }
+  
+  .left-header, .right-header, .food-title2, .last-header {
+    font-size: 20px;
+  }
+  
+  .box1 {
+    height: auto;
+    min-height: 350px;
+    gap: 25px;
+    padding: 30px 0;
+  }
+  
+  .box1 p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  
+  .learning-box {
+    flex-direction: column;
+    height: auto;
+    min-height: 300px;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .learning-box .fig {
+    height: 200px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .left {
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .lt {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .lt .lt-text {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .giant {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .left-box, .right-box {
+    height: auto;
+    min-height: 300px;
+  }
+  
+  .right-box {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .lb, .rb {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+  }
+  
+  .core-areas-list {
+    margin-left: 0;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .final-boxx1 {
+    height: auto;
+    min-height: 350px;
+    padding: 30px 20px;
+  }
+  
+  .bottom {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .bottom::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .bottom::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .bottom::-webkit-scrollbar-thumb {
+    background: #F3A423;
+    border-radius: 10px;
+  }
+  
+  .boxx1 {
+    min-width: 200px;
+    flex-shrink: 0;
+    height: 250px;
+  }
+  
+  .top {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile Large (481px - 767px) */
+@media (max-width: 767px) and (min-width: 481px) {
+  .food1, .learning, .lastt {
+    max-width: 450px;
+    padding: 0 15px;
+    margin-top: 60px;
+  }
+  
+  .food-title1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .left-header, .right-header, .food-title2, .last-header {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .box1 {
+    height: auto;
+    min-height: 300px;
+    gap: 20px;
+    padding: 25px 0;
+  }
+  
+  .box1 p {
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .learning-box {
+    flex-direction: column;
+    height: auto;
+    min-height: 250px;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .learning-box .fig {
+    height: 180px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .lt {
+    margin-left: 0;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .lt img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .lt .lt-text {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .giant {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .left-box, .right-box {
+    height: auto;
+    min-height: 250px;
+  }
+  
+  .right-box {
+    flex-direction: column;
+    gap: 0px;
+    padding: 15px;
+  }
+  
+  .lb, .rb {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+  }
+  
+  .rhead {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .rlist {
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+  
+  .core-areas-list {
+    margin-left: 0;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  .final-boxx1 {
+    height: auto;
+    min-height: 300px;
+    padding: 25px 15px;
+  }
+  
+  .bottom {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .boxx1 {
+    min-width: 180px;
+    max-width: 90vw;
+    flex-shrink: 0;
+    margin: 0;
+    height: 180px;
+    box-sizing: border-box;
+  }
+  
+  .top {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .h {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  
+  .t {
+    font-size: 14px;
+  }
+}
+
+/* Mobile Small (320px - 480px) */
+@media (max-width: 480px) {
+
+  .food1{
+    max-width: 340px;
+    margin-top: 100px;
+  }
+
+  .learning, .lastt {
+    max-width: 320px;
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  
+  .food-title1 {
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .left-header, .right-header, .food-title2, .last-header {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .box1 {
+    height: auto;
+    min-height: 250px;
+    gap: 10px;
+    padding: 20px 0;
+  }
+  
+  .box1 p {
+    font-size: 13px;
+    padding: 0 8px;
+    text-align: left;
+  }
+  
+  .learning-box {
+    flex-direction: column;
+    height: auto;
+    min-height: 200px;
+    gap: 12px;
+    padding: 12px;
+  }
+  
+  .learning-box .fig {
+    height: 170px;
+    width: 100%;
+  }
+  
+  .lt {
+    margin-left: 0;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .lt img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .lt .lt-text {
+    font-size: 13px;
+    text-align: left;
+  }
+  
+  .giant {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .left-box, .right-box {
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .right-box {
+    flex-direction: column;
+    gap: 0px;
+    padding: 12px;
+  }
+  
+  .lb, .rb {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+  }
+  
+  .rhead {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .rlist {
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+  
+  .core-areas-list {
+    margin-left: 0;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  .final-boxx1 {
+    height: auto;
+    min-height: 300px;
+    padding: 25px 15px;
+  }
+  
+  .bottom {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .boxx1 {
+    min-width: 150px;
+    flex-shrink: 0;
+    height: 180px;
+  }
+  
+  .top {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  
+  .h {
+    margin-top: 30px;
+    font-size: 13px;
+    height: auto;
+  }
+  
+  .t {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Mobile (below 320px) */
+@media (max-width: 319px) {
+  .food1, .learning, .lastt {
+    max-width: 280px;
+    padding: 0 5px;
+  }
+  
+  .food-title1 {
+    font-size: 18px;
+  }
+  
+  .left-header, .right-header, .food-title2, .last-header {
+    font-size: 14px;
+  }
+  
+  .box1 {
+    min-height: 200px;
+    gap: 12px;
+    padding: 15px 0;
+  }
+  
+  .box1 p {
+    font-size: 13px;
+    padding: 0 5px;
+  }
+  
+  .learning-box {
+    min-height: 180px;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .learning-box .fig {
+    height: 120px;
+    max-width: 200px;
+  }
+  
+  .lt .lt-text {
+    font-size: 13px;
+  }
+  
+  .lb, .rb {
+    min-width: 140px;
+    height: 160px;
+  }
+  
+  .boxx1 {
+    min-width: 130px;
+    height: 160px;
+  }
+  
+  .final-boxx1 {
+    min-height: 200px;
+    padding: 15px 5px;
+  }
+}
+
+/* Ensure proper container behavior */
+@media (max-width: 767px) {
+  .food1, .learning, .lastt {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .giant-left, .giant-right {
+    width: 100%;
+  }
+}
+
+/* Fix for mobile view - ensure first box is fully visible */
+@media (max-width: 767px) and (min-width: 481px) {
+  .right-box {
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px 20px 15px 20px; /* Add more left padding */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .lb, .rb {
+    min-width: 280px; /* Increase minimum width */
+    flex-shrink: 0;
+    height: 220px;
+    margin: 0; /* Remove any margins */
+  }
+  
+  /* Add padding spacers to ensure first and last items are fully visible */
+  .right-box::before {
+    content: '';
+    flex-shrink: 0;
+    width: 10px; /* Left spacer */
+  }
+  
+  .right-box::after {
+    content: '';
+    flex-shrink: 0;
+    width: 10px; /* Right spacer */
+  }
+}
+
+@media (max-width: 480px) {
+  .right-box {
+    flex-direction: row;
+    gap: 12px;
+    padding: 12px 15px 12px 15px; /* Ensure proper left padding */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .lb, .rb {
+    min-width: 220px; /* Increase minimum width for better visibility */
+    flex-shrink: 0;
+    height: 220px;
+    margin: 0;
+  }
+  
+  /* Add padding spacers */
+  .right-box::before {
+    content: '';
+    flex-shrink: 0;
+    width: 10px;
+  }
+  
+  .right-box::after {
+    content: '';
+    flex-shrink: 0;
+    width: 10px;
+  }
+}
+
+/* Additional fix for very small screens */
+@media (max-width: 319px) {
+  .right-box {
+    padding: 10px 12px 10px 12px;
+  }
+  
+  .lb, .rb {
+    min-width: 200px;
+  }
+  
+  .right-box::before,
+  .right-box::after {
+    width: 8px;
+  }
+}
+
+/* Ensure Training & Certification Programs is horizontally scrollable and fully visible on mobile/tablet */
+@media (max-width: 767px) {
+  .right-box {
+    display: flex;
+    flex-direction: row !important;
+    gap: 15px;
+    padding: 15px 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .right-box::-webkit-scrollbar {
+    height: 6px;
+  }
+  .right-box::-webkit-scrollbar-thumb {
+    background: #2d5d8b;
+    border-radius: 10px;
+  }
+  .right-box::before,
+  .right-box::after {
+    content: '';
+    flex-shrink: 0;
+    width: 8px;
+  }
+  .lb, .rb {
+    min-width: 260px;
+    max-width: 90vw;
+    flex-shrink: 0;
+    margin: 0;
+    height: 220px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 767px) {
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .bottom::before,
+  .bottom::after {
+    content: '';
+    flex-shrink: 0;
+    width: 8px;
+  }
+  .boxx1 {
+    min-width: 180px;
+    max-width: 90vw;
+    flex-shrink: 0;
+    margin: 0;
+    height: 180px;
+    box-sizing: border-box;
+  }
+  .bottom::-webkit-scrollbar {
+    height: 6px;
+  }
+  .bottom::-webkit-scrollbar-thumb {
+    background: #F3A423;
+    border-radius: 10px;
+  }
 }
 
 

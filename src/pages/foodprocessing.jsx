@@ -50,7 +50,7 @@ function FoodProcessing() {
                     </div>
 
                     <div className='right'>
-                        <img src='food.svg' alt='food processing technology courses'/>                   
+                        <img className='fig' src='food.svg' alt='food processing technology courses'/>                   
                     </div>
                 </div>
 
@@ -130,16 +130,6 @@ function FoodProcessing() {
                                 <ul className='end-l'>
                                     <li>Food Entrepreneur</li>
                                     <li> Small Business Owner</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div className='boxx1'>
-                            <p className='h'>Government & Public Sector</p>
-                            <p className='t'>
-                                <ul className='end-l'>
-                                    <li>Food Inspector</li>
-                                    <li>Extension Officer</li>
                                 </ul>
                             </p>
                         </div>
