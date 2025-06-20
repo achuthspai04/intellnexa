@@ -8,7 +8,7 @@ function NutritionAndDietetics() {
         <>
             <Navbar />
             <div className='pfood1'>
-                <p className='pfood-title1'>Nutrition and Dietetics Programme</p>
+                <p className='pfood-title1'>Nutrition and Food Service Management Programme</p>
                 <div className='pbox1'>
                     <p className='pfood-text1'>The Nutrition and Dietetics Programme is a comprehensive academic and skill-based  course designed to equip students with essential theoretical knowledge and practical  competencies in human nutrition, therapeutic dietetics, food science, and public health. It  aims to prepare students for diverse careers in nutrition, community health, food service  management, and wellness entrepreneurship.</p>
                     <p className='pfood-text2'>The <strong>diploma program</strong> offers in-depth training in nutrition assessment, diet planning,  therapeutic nutrition and public health interventions. It is ideal for individuals seeking a  career in clinical or community nutrition, food service management, wellness coaching or  nutraceutical companies. </p>
@@ -52,7 +52,7 @@ function NutritionAndDietetics() {
                     </div>
 
                     <div className='pright'>
-                        <img src='nutrition.svg' alt='food processing technology courses'/>                   
+                        <img className="ipip" src='nutrition.svg' alt='food processing technology courses'/>                   
                     </div>
                 </div>
 
