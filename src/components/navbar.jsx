@@ -8,36 +8,27 @@ function Navbar({ onLinkClick }) {
   const [activeLink, setActiveLink] = useState('Home');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleLinkClick = (linkName, path) => {
-    setActiveLink(linkName);
-    setIsMobileMenuOpen(false); // Close menu on link click
-    if (onLinkClick) {
-      onLinkClick(linkName);
-    } else {
-      if (linkName === 'Services') {
-        navigate('/');
-        setTimeout(() => {
-          const coreElement = document.querySelector('.core');
-          if (coreElement) {
-            coreElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }, 100);
-      } else if (linkName === 'Add-on Courses') {
-        navigate('/');
-        setTimeout(() => {
-          const addOnElement = document.querySelector('.add-on');
-          if (addOnElement) {
-            addOnElement.scrollIntoView({ behavior: 'smooth' });
-          }
-        }, 100);
-      } else if (linkName === 'Home' || linkName === 'About') {
-        navigate('/', { replace: false });
-        setTimeout(() => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }, 300); // Increase timeout to ensure navigation completes
-      } else {
-        navigate(path);
-      }
+  const handleLinkClick = (linkName) => {
+    if (linkName === 'Services') {
+      navigate('/');
+      setTimeout(() => {
+        const coreElement = document.querySelector('.core');
+        if (coreElement) {
+          coreElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else if (linkName === 'Add-on Courses') {
+      navigate('/');
+      setTimeout(() => {
+        const addOnElement = document.querySelector('.add-on');
+        if (addOnElement) {
+          addOnElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else if (linkName === 'Home' || linkName === 'About Us' || linkName === 'About') {
+      // Handle Home, About Us, and About
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      navigate('/');
     }
   };
 
