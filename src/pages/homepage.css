@@ -1229,8 +1229,8 @@
   .add-services .add1,
   .add-services .add2,
   .add-services .add3 {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 420px;
   }
   
   .the-body {
@@ -1263,6 +1263,7 @@
     height: auto;
     min-height: 350px;
   }
+  
 }
 
 /* Extra Small Mobile (below 320px) */
@@ -2126,4 +2127,18 @@
     font-size: 13px;
     padding: 0 3px;
   }
+}
+
+@media (max-width: 480px) {
+    .add-services .add1, .add-services .add2, .add-services .add3 {
+        min-width: 280px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-services {
+        padding: 20px 10px;
+        height: 540px;
+    }
 }
