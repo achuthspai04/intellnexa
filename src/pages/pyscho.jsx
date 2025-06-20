@@ -49,7 +49,7 @@ function Psycho() {
                     </div>
 
                     <div className='nright'>
-                        <img src='psychology.svg' alt='coursees for psychology students in kerala'/>                   
+                        <img className="imimim" src='psychology.svg' alt='coursees for psychology students in kerala'/>                   
                     </div>
                 </div>
 

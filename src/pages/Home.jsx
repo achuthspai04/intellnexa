@@ -165,15 +165,31 @@ function Home() {
             <div className='addcontent'>
             <p className='add-header'>Food Processing and Entrepreneurship Development  Programme </p>
             <p className='add-text'>This comprehensive course in Food Processing and Entrepreneurship Development  Programme is designed to equip students with both theoretical knowledge and hands-on  experience across key areas of the food industry. It integrates core scientific principles with  modern innovations to prepare students for dynamic roles in food safety, quality control,  processing, and entrepreneurship.</p>
-            <button className='view-more'>View More</button>
+            <button
+  className='view-more'
+  onClick={() => {
+    navigate('/foodprocessing');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }}
+>
+  View More
+</button>
             </div>
           </div>
 
           <div className='add2'>
             <div className='addcontent'>
-            <p className='add-header'>Nutrition and Dietetics Programme</p>
-            <p className='add-text'>The Nutrition and Dietetics Programme is a comprehensive academic and skill-based  course designed to equip students with essential theoretical knowledge and practical  competencies in human nutrition, therapeutic dietetics, food science, and public health. It  aims to prepare students for diverse careers in nutrition, community health, food service  management, and wellness entrepreneurship.</p>
-            <button className='view-more'>View More</button>
+            <p className='add-header'>Nutrition and Food Service Management Programme</p>
+            <p className='add-text'>The Nutrition and Food Service Management Programme is a comprehensive academic and skill-based  course designed to equip students with essential theoretical knowledge and practical  competencies in human nutrition, therapeutic dietetics, food science, and public health. It  aims to prepare students for diverse careers in nutrition, community health, food service  management, and wellness entrepreneurship.</p>
+            <button
+      className='view-more'
+      onClick={() => {
+        navigate('/nutrition-and-dietetics');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }}
+    >
+      View More
+    </button>
             </div>
           </div>
 
@@ -181,7 +197,15 @@ function Home() {
             <div className='addcontent'>
             <p className='add-header'>Psychosocial Support and Inclusive Counseling</p>
             <p className='add-text'>Psychosocial Support and Inclusive Counseling is an add-on course designed to equip learners with skills to address emotional, social, and psychological well-being in diverse populations. It emphasizes inclusive practices that respect cultural, gender, and ability differences. The course prepares participants to provide empathetic, accessible, and context-sensitive counseling support.</p>
-            <button className='view-more'>View More</button>
+            <button
+      className='view-more'
+      onClick={() => {
+        navigate('/psychology-and-counseling');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }}
+    >
+      View More
+    </button>
             </div>
           </div>
         </div>
