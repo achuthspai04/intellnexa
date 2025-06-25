@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './homepage.css'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer';
@@ -38,6 +39,31 @@ function Home() {
 
   return (
     <>
+    
+      <Helmet>
+        <title>Intellnexa | Remote Learning & Development Solutions</title>
+        <meta
+          name="description"
+          content="Intellnexa is a remote-first private firm delivering high-quality educational and developmental services to individuals and institutions. We empower learning with flexible, innovative solutions for the modern world."
+        />
+        <meta
+          name="keywords"
+          content="Intellnexa, online education, remote learning, institutional training, professional development, learning platform, skill development, remote training, educational services, flexible learning"
+        />
+
+        {/* Open Graph Meta Tags for Social Sharing */}
+        <meta property="og:title" content="Intellnexa | Remote Learning & Development Solutions" />
+        <meta property="og:description" content="Empowering individuals and institutions through flexible, remote-first educational and development services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.intellnexa.com/" />
+        <meta property="og:image" content="https://www.intellnexa.com/og-image.jpg" /> {/* Replace with your image URL */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Intellnexa | Remote Learning & Development Solutions" />
+        <meta name="twitter:description" content="High-quality, flexible education and development services for modern learners." />
+        <meta name="twitter:image" content="https://www.intellnexa.com/og-image.jpg" /> {/* Replace with your image URL */}
+      </Helmet>
+
+
       <Navbar onLinkClick={handleLinkClick} />
 
       <div className="main-box">
