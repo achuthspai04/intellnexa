@@ -45,16 +45,13 @@ function Home() {
         <p className="head2">Imparting Futuristic Solutions</p>
         <div className="ppp">
         <p className="p1">
-          At Intellnexa, we are committed to delivering high-quality educational and developmental
+          At Intellnexa, we are committed to delivering high-quality educational and developmental 
         </p>
-        <p className="p2">
-          services designed to empower individuals and institutions alike. Operating as a remote
+        <p className="p2"> services designed to empower individuals and institutions alike. Operating as a remote
         </p>
-        <p className="p3">
-          private firm, we offer a flexible and innovative platform that meets the diverse learning and
+        <p className="p3"> private firm, we offer a flexible and innovative platform that meets the diverse learning and
         </p>
-        <p className="p4">
-          training needs of today’s dynamic world.
+        <p className="p4"> training needs of today’s dynamic world.
         </p>
         </div>
 
@@ -125,7 +122,7 @@ function Home() {
           <div className='additional2'>
             <div className='content1'>
             <img className="addl-image" src="/addl2.svg" alt="Project Support and Metorship" width={90} height={90} />
-            <p className='addl-header'>Project Support and Metorship</p>
+            <p className='addl-header'>Project Support and Mentorship</p>
             <p className='addl-text'> Assistance with academic projects, research, and innovation incubation</p>
             </div>
           </div>
