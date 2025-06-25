@@ -1,4 +1,5 @@
 import react from 'react';
+import { Helmet } from 'react-helmet';
 import './foodprocessing.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer.jsx';
@@ -6,6 +7,46 @@ import Footer from '../components/footer.jsx';
 function FoodProcessing() {
     return (
         <>
+        
+        <Helmet>
+        <title>
+          Food Processing & Entrepreneurship Development Programme | Intellnexa
+        </title>
+        <meta
+          name="description"
+          content="A comprehensive course designed to equip students and professionals with practical skills and certifications in food processing, safety, quality control, and entrepreneurship."
+        />
+        <meta
+          name="keywords"
+          content="food processing course, entrepreneurship development, food safety training, quality control, food industry diploma, biosciences, add-on course, food technology, nutrition, food science, Intellnexa"
+        />
+
+        {/* Open Graph (no image) */}
+        <meta
+          property="og:title"
+          content="Food Processing & Entrepreneurship Development Programme | Intellnexa"
+        />
+        <meta
+          property="og:description"
+          content="Learn food processing, safety, and entrepreneurship with Intellnexa's add-on and diploma courses. Ideal for students and professionals entering the food sector."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.intellnexa.com/foodprocessing"
+        />
+
+        {/* Twitter Card (no image) */}
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Food Processing & Entrepreneurship Development Programme | Intellnexa"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore our practical, certification-backed food processing courses for bioscience students and aspiring food entrepreneurs."
+        />
+      </Helmet>
         <Navbar/>
             
             <div className='food1'>

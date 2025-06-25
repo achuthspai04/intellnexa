@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import './nutrition.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer.jsx';
@@ -6,6 +7,45 @@ import Footer from '../components/footer.jsx';
 function NutritionAndDietetics() {
     return (
         <>
+
+        <Helmet>
+        <title>Nutrition & Food Service Management Programme | Intellnexa</title>
+        <meta
+          name="description"
+          content="A skill-based diploma in Nutrition and Food Service Management covering dietetics, public health, wellness coaching, and therapeutic nutrition for diverse career paths."
+        />
+        <meta
+          name="keywords"
+          content="nutrition course, food service management, therapeutic dietetics, public health nutrition, wellness coaching, nutrition diploma, diet planning, clinical nutrition, community health, Intellnexa"
+        />
+
+        {/* Open Graph (with dev URL) */}
+        <meta
+          property="og:title"
+          content="Nutrition & Food Service Management Programme | Intellnexa"
+        />
+        <meta
+          property="og:description"
+          content="In-depth diploma training in nutrition, food service, and public health. Prepare for careers in clinical nutrition, wellness, and health education."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.intellnexa.com/nutrition-and-dietetics"
+        />
+
+        {/* Twitter Card (no image) */}
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Nutrition & Food Service Management Programme | Intellnexa"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore a career in clinical or community nutrition with Intellnexa's comprehensive diploma in nutrition, dietetics, and wellness."
+        />
+      </Helmet>
+
             <Navbar />
             <div className='pfood1'>
                 <p className='pfood-title1'>Nutrition and Food Service Management Programme</p>

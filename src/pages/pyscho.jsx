@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import './psycho.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer.jsx';
@@ -6,6 +7,45 @@ import Footer from '../components/footer.jsx';
 function Psycho() {
     return (
         <>
+        <Helmet>
+        <title>Psychosocial Support & Inclusive Counseling Course | Intellnexa</title>
+        <meta
+          name="description"
+          content="Learn inclusive counseling and psychosocial support with Intellnexa’s add-on and diploma courses. Build foundational and professional skills for mental health care."
+        />
+        <meta
+          name="keywords"
+          content="inclusive counseling, psychosocial support course, counseling diploma, mental health training, cultural sensitivity, gender-inclusive therapy, counseling add-on course, Intellnexa, mental health certificate"
+        />
+
+        {/* Open Graph Meta */}
+        <meta
+          property="og:title"
+          content="Psychosocial Support & Inclusive Counseling Course | Intellnexa"
+        />
+        <meta
+          property="og:description"
+          content="Empathetic and inclusive counseling training through both add-on and diploma courses. Gain skills to support emotional and social well-being across diverse communities."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.intellnexa.com/psychology-and-counseling"
+        />
+
+        {/* Twitter Meta */}
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="Psychosocial Support & Inclusive Counseling Course | Intellnexa"
+        />
+        <meta
+          name="twitter:description"
+          content="Flexible counseling courses designed to equip learners with inclusive, culturally-sensitive mental health support skills."
+        />
+      </Helmet>
+
+
             <Navbar />
             <div className='nfood1'>
                 <p className='nfood-title1'>Psychosocial support and Inclusive Counseling </p>
